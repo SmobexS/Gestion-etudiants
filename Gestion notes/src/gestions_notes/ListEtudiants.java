@@ -1,5 +1,7 @@
 package gestions_notes;
 
-public class ListEtudiants {
+import java.util.ArrayList;
+
+public class ListEtudiants extends ArrayList<etudiant>{
 
 }
