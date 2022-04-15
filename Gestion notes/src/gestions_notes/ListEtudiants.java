@@ -7,7 +7,7 @@ public class ListEtudiants extends ArrayList<etudiant>{
 		if(this.indexOf(e)>0) {
 			int i=indexOf(e);
 			super.set(i, e);
-			return true;
+			return false;
 		}
 		return super.add(e);
 	}
