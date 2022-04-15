@@ -5,6 +5,14 @@ public class etudiant implements Comparable<etudiant> {
 	private String nom;
 	private double note;
 	
+	public void setNote(double note) {
+		this.note = note;
+	}
+	
+	public double getNote() {
+		return note;
+	}
+	
 // Creation du constructeur
 	etudiant (int i , String na){
 		this.id = i;
