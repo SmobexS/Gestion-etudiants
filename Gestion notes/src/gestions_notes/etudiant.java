@@ -1,7 +1,5 @@
 package gestions_notes;
 
-import aiac.gi18.java.complexe.Complexe;
-
 public class etudiant implements Comparable<etudiant> {
 	private int id;
 	private String nom;
