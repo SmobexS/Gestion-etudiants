@@ -17,7 +17,7 @@ public class ListEtudiants extends ArrayList<etudiant>{
 // methode filtrer
 	public ArrayList<etudiant> filtrer(Condition c){
 		ListEtudiants l= new ListEtudiants();
-		for(etudiant e : ArrayList<etudiant>) {
+		for(etudiant e : this) {
 			if (c.estVrai(e)) {
 				l.add(e);
 			}
