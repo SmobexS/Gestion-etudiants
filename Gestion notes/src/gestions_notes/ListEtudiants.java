@@ -14,4 +14,14 @@ public class ListEtudiants extends ArrayList<etudiant>{
 		return super.add(e);
 	}
 
+// methode filtrer
+	public ListEtudiants filtrer(Condition c){
+		ListEtudiants l;
+		for(etudiant e : ArrayList<etudiant>) {
+			if (c.estVrai(e)) {
+				l.add(e);
+			}
+		}
+		return l;
+	}
 }
